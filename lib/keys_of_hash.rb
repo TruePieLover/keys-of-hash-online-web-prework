@@ -5,7 +5,7 @@ class Hash
     arguments.each do |args|
       self.each do|key, value|
         if value == args
-        arr << key
+        array << key
         end
       end
     end
