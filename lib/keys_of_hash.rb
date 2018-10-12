@@ -4,11 +4,10 @@ class Hash
     arguments.each do |x|
       arguments.each do|key, value|
         if value == args
-        arr << key
+        array << key
         end
       end
     end
     arr
-  end	  end
-  end
+
 end
