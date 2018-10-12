@@ -6,9 +6,9 @@ class Hash
       self.each do|key, value|
         if value == x
         array << key
-        end
       end
     end
+    end
     array
-  end	  
+end	  
 end 	
