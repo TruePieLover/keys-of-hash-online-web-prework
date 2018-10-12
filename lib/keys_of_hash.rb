@@ -5,10 +5,10 @@ class Hash
     arguments.each do |x|
       self.each do|key, value|
         if value == x
-        arr << key
+        array << key
         end
       end
     end
-    arr
+    array
   end	  
 end 	
