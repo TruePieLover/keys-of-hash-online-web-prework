@@ -1,7 +1,7 @@
 class Hash
  def keys_of(arguments)
     # code goes here	   
-    arayr =[]
+    array =[]
     arguments.each do |args|
       self.each do|key, value|
         if value == args
