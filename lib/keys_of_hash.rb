@@ -8,6 +8,6 @@ class Hash
         end
       end
     end
-    arr
+    array
 end
 end
