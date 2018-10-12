@@ -6,7 +6,6 @@ class Hash
         array << key
         end
       end
-    end
     array
 end
 end
